@@ -78,22 +78,19 @@ p {
 }
 a {
     font-size: 22px;
-
-}
-}
-
-.un a {
-    font-style: italic;
+ font-style: italic;
     font-weight: 200;
     text-decoration: none;
     transition: transform .2s;
     color: rgb(20, 20, 113);
-}
-
-.un a:hover {
+    &::hover {
     transform: scale(1.5);
     color: rgb(120, 77, 24);
 }
+}
+}
+
+
 
 .un {
     background-image: url(/assets/images/456411743485046875.png);
