@@ -1,28 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>THE FROEN KING</title>
+<meta name=" description" content="Bla bla">
+<link rel="icon" href="/assets/images/1150669773548113415.jpg" type="image/x-icon" />
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="script.js" defer></script>
+<script type="text/javascript" src="../assets/JS/scrollspeed.js" defer></script>
 </head>
+
 <body>
-    <section class="un">
-        home page
-    </section>
-    <section class="deux">
-news i frame
-    </section>
-    <section class="trois">
-livre info persos encironn
-    </section>
-    <section class="quatre">
-lroe drop
-    </section>
-    <section class="cinq">
-les contribuerus
-    </section>
-   <section class="six">
-integration feed rss contribuez!
-    </section>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>This Is The Title</h2>
+        <canvas width="1400" height="900"></canvas>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio fugiat alias iure qui, commodi minima magni ullam aliquam dignissimos?
+        </p>
+        <a href="/prologue/prologue.html">Commencez à lire</a>
+        </div>
+       <header>
+          <a href="#" class="logo">Logo</a>
+            <ul>
+            <li><a class="active" href="#acceuil">Acceuil</a></li>
+            <li><a href="/histoire/histoire.html">L'histoire</a></li>
+            <li><a href="/prologue/prologue_1.html">Prologue</a></li>
+            <li><a href="/chapitre/chapitre.html">Chapitres</a></li>
+            <li> <a href="/personnages/personnages.html">Personnages</a></li>
+             <li> <a href="/galerie/galerie.html">Galerie</a></li>
+            <li> <a href="/special/special.html">Spécial</a></li>
+             <li><a href="/feed/feednews.html">Feed RSS</a></li>
+             <li><a href="/nous/nous.html">Les autrices</a></li>
+        </ul>
+    </header>
+        <section class="un">
+        <h1>Deus <br> Ex Machina</h1>
+            <p>Manchester nous voila</p>
+            <a href="/prologue/prologue_1.html" id="SHAKE"> Commencez l'aventure</a>
+        </section>
+        <section class="deux">
+            <h1>Mini Résumé</h1>
+ <div class="flex"> 
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At tenetur in asperiores repellendus exercitationem, obcaecati quisquam assumenda nihil minima totam. Facilis corporis sunt quam doloribus, numquam voluptates porro omnis quisquam.</p>
+
+ </div>
+        </section>
+        <section class="trois">
+            <h1>Trucs</h1>
+        </section>
+        <section class="cinq">
+            <h1>Abonnez vous au feed et un peu sur nous.</h1>
+        </section>
+
+        <!-- SCRIPT POUR LE HEADER-->
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY  > 0);
+})
+</script>
+<script type="text/javascript">
+ window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1000
+    )
+});
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+</script>
+<script>
+    if (localStorage.getItem('shown') === null) {
+
+
+document.write('<script type="text/javascript"><\/script>');
+
+localStorage.setItem('.popup', true);
+}
+</script>
+ <script language="Javascript">
+    window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Visit this on a Computer for Better View");              
+    } else {
+
+    }
+  }
+  </script>
+  <!-- SCRIPT POUR LE HEADER-->
+
 </body>
 </html>
