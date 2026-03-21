@@ -5,22 +5,13 @@
 <meta name="viewport" content="width=device-width">
 <title>THE FROEN KING</title>
 <meta name=" description" content="Bla bla">
-<link rel="icon" href="/assets/images/1150669773548113415.jpg" type="image/x-icon" />
+<link rel="icon" href="images/1150669773548113415.jpg" type="image/x-icon" />
 <link rel="stylesheet" href="style.css" />
 <script type="text/javascript" src="script.js" defer></script>
 <script type="text/javascript" src="../assets/JS/scrollspeed.js" defer></script>
 </head>
 
 <body>
-    <div class="popup">
-        <button id="close">&times;</button>
-        <h2>This Is The Title</h2>
-        <canvas width="1400" height="900"></canvas>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio fugiat alias iure qui, commodi minima magni ullam aliquam dignissimos?
-        </p>
-        <a href="/prologue/prologue.html">Commencez à lire</a>
-        </div>
        <header>
           <a href="#" class="logo">Logo</a>
             <ul>
@@ -61,39 +52,6 @@
     header.classList.toggle("sticky", window.scrollY  > 0);
 })
 </script>
-<script type="text/javascript">
- window.addEventListener("load", function(){
-    setTimeout(
-        function open(event){
-            document.querySelector(".popup").style.display = "block";
-        },
-        1000
-    )
-});
-document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
-});
-</script>
-<script>
-    if (localStorage.getItem('shown') === null) {
-
-
-document.write('<script type="text/javascript"><\/script>');
-
-localStorage.setItem('.popup', true);
-}
-</script>
- <script language="Javascript">
-    window.onload=function(){
-    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-    if (mobile) {
-        alert("Visit this on a Computer for Better View");              
-    } else {
-
-    }
-  }
-  </script>
-  <!-- SCRIPT POUR LE HEADER-->
 
 </body>
 </html>
