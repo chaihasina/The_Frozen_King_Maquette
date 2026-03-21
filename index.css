@@ -60,7 +60,9 @@ section {
     scroll-snap-align: start;
 }
 
-.un h1 {
+.un{
+
+    h1 {
     font-size: 130px;
     font-family: noctune;
     font-weight: 100;
@@ -70,21 +72,14 @@ section {
 
     mix-blend-mode: difference;
 }
-
-.un p {
+p {
     color: #e8e8e8;
     font-size: 40px;
 }
-
-.un a {
+a {
     font-size: 22px;
 
 }
-
-.un h1,
-.un p,
-.un a {
-    margin-left: 100px;
 }
 
 .un a {
