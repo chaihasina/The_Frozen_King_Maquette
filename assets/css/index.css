@@ -18,6 +18,14 @@ header {
     font-size: 15px;
     z-index: 1000000;
     flex-wrap: wrap;
+
+    .logo {
+    position: relative;
+    color: rgb(105, 79, 47);
+    text-decoration: none;
+    font-size: 20px;
+
+}
 }
 
 header .logo {
@@ -89,9 +97,6 @@ a {
 }
 }
 }
-
-
-
 .un {
     background-image: url(/assets/images/456411743485046875.png);
     background-repeat: no-repeat;
@@ -102,16 +107,17 @@ a {
 }
 
 /*FIN DE UN, DEBUT DE 2*/
+
 .deux {
     background-color: rgb(255, 179, 80);
 }
 
-/**/
+/*TROIS*/
 .trois {
     background-color: rgb(80, 165, 255);
 }
 
-/**/
+/* QUATRE*/
 .quatre {
     background-color: rgb(220, 255, 80);
 }
@@ -119,71 +125,4 @@ a {
 /**/
 .cinq {
     background-color: rgb(217, 80, 255);
-}
-
-/*pop up*/
-*,
-*:before,
-*:after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #0f72e5;
-}
-
-.popup {
-    background-color: #ffffff;
-    max-width: 900px;
-    padding: 30px 40px;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    border-radius: 8px;
-    font-family: "Poppins", sans-serif;
-    display: none;
-    text-align: center;
-    transition: transform;
-    z-index: 10000000000000000;
-}
-
-.popup button {
-    display: block;
-    margin: 0 0 20px auto;
-    background-color: transparent;
-    font-size: 30px;
-    color: #c5c5c5;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.popup p {
-    font-size: 14px;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
-    max-width: 800px;
-    background-color: #c5c5c5;
-}
-
-.popup a {
-    display: block;
-    max-width: 150px;
-    position: relative;
-    margin: 10px auto;
-    text-align: center;
-    background-color: #0f72e5;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 0;
-}
-
-canvas {
-    margin-top: 20px;
-    background-color: black;
-    max-width: 800px;
 }
