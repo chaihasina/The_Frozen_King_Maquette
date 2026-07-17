@@ -5,7 +5,7 @@ La maquette se trouves dans assets - base design rough
 ###### Sections faites
 ###### CSS élémentaire de fait
 # Qui fait Quoi
-## Hero Page (Joanna)
+## Hero Page (Joanna) A commencer!
 ## News (Jaider)
 ## Story (Jojo)
 ## Characters (Jaider)
